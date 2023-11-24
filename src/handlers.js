@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { saveAs } from 'file-saver';
 
-const apiUrl = 'https://your-backend-domain.com/api';
+const apiUrl = 'https://phonecheckerback.up.railway.app';
 
 export const getCountries = async () => {
     try {
